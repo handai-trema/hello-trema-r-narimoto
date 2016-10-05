@@ -1,7 +1,7 @@
 # Hello World!
 class HelloTrema < Trema::Controller
-  def start(args)
-    logger.info "#{args.class.name} started."
+  def start(_args)
+    logger.info "#{self.name} started."
   end
 
   def switch_ready(datapath_id)
