@@ -16,4 +16,6 @@ HelloTremaが起動したら，"HelloTrema started."とメッセージを表示�
 ただし，文字列"HelloTrema"をハードコーディングしない．  
 ```
 
-selfが自オブジェクトを示しているので，self.nameでインスタンス変数nameからオブジェクト名を取得し，表示するようにした．
+selfが自オブジェクトを示しているので，self.nameでインスタンス変数nameからオブジェクト名を取得し，表示するようにした．  
+##ソースコード  
+[hello_trema.rb](https://github.com/handai-trema/hello-trema-r-narimoto/blob/master/lib/hello_trema.rb)
