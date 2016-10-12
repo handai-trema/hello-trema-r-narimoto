@@ -13,5 +13,14 @@ def start(_args)
   logger.info "#{self.name} started."
 end
 ```
+
+文字列をハードコーディングする下記のような実装がいけない理由としては，
+クラス名が変更になった際に当該クラスの実装変更の他にハードコーディングした部分も変更する必要が出る．
+1つならまだ覚えているかもしれないが，複数このような箇所があると，仕様変更の際のバグに繋がりやすい．
+```
+def start(_args)
+  logger.info "HelloTrema started."
+end
+```
 ##ソースコード  
 [hello_trema.rb](https://github.com/handai-trema/hello-trema-r-narimoto/blob/master/lib/hello_trema.rb)
